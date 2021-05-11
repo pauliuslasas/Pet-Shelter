@@ -1,6 +1,6 @@
 # Pet-Shelter
 Description:
-I've created a web application for a local pet shelter in my town using Django framework and bootstrap. The project is not hosted online, it's currently running on local host. I have chosen Django for this project because of its freatures. I needed an admin panel so that there could be one admin user who could upload new posts, animal listings, delete them, change them etc.. Django has a built it admin panel which is fairly simple to use and set up and it is really powerful.
+I've created a web application for a pet shelter using Django framework and bootstrap. The project is not hosted online, it's currently running on local host. I have chosen Django for this project because of its freatures. I needed an admin panel so that there could be one admin user who could upload new posts, animal listings, delete them, change them etc.. Django has a built it admin panel which is fairly simple to use and set up and it is really powerful.
 
 Database: For my database I used DBSQLITE3 to hold my data. Database has three main tables that is: a. Users - it holds the main admin user because it needs a user to upload news, animals ads. b. Posts - Post table is used to create, upload news. c. Animals - Animals table is used to upload pets for adoption.
 
