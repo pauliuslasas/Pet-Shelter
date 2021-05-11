@@ -1,0 +1,173 @@
+.hero-image {
+    height: 500px;
+    background: url(/static/Sam/header.jpg) top center no-repeat;
+    background-size: cover;
+    border-bottom: 5px solid #b9c562;
+    position: relative;
+    padding: 160px 0 0 0;
+    margin: 0 0 40px 0; 
+  }
+  
+
+.cont {
+  text-align: center;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+.con {
+  text-align: left;
+  margin: auto;
+  padding-left: 150px;
+  padding-right: 150px;
+  margin-top: 70px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 20vw;
+  object-fit: cover;
+}
+.card-img {
+  width: 100%;
+  max-height: 35vw;
+  object-fit: cover;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+.overflow {
+    overflow-wrap: break-word;
+  }
+
+body {
+  min-height: 400px;
+  margin-bottom: 60px;
+  clear: both;
+  font-family: Comic Sans MS;
+
+}
+
+
+
+.in-title {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+.paw {
+  width: 5%;
+  margin-top: 30px;
+}
+
+.page-title {
+  width: 100%;
+  border-bottom: 1px solid rgba(168,168,168,.15);
+  position: relative;
+  margin-top: 0px;
+  margin-bottom: 40px;
+}
+
+.title-size-small {
+  padding: 15px 0;
+}
+
+.page-title-default {
+  background-color: #77B26E;
+}
+
+.color-scheme-light {
+  color: rgba(255,255,255,.8);
+}
+
+.entry-title {
+  margin-bottom: 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+/* 8e8ec1 */
+
+.line-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;  
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.card {
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+}
+
+.right {
+  float: right;
+
+}
+
+
+
+
+
+
+.banner{
+  max-width: 900px;
+}
+.img-media{
+  max-width: 6rem;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}

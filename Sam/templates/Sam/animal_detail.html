@@ -1,0 +1,57 @@
+{% extends "Sam/base.html" %}
+
+{% block main %}
+<div class="page-title page-title-default title-size-small title-design-centered color-scheme-light">
+    <div class="container">
+        <header class="entry-header">
+            <h2 class="entry-title">{{ object.title }}</h2>													
+        </header><!-- .entry-header -->
+    </div>
+</div>
+<img class="rounded mx-auto d-block paw" src="/static/Sam/download.png">
+<hr> 
+
+<!-- <div class="container" >
+    <img class="rounded mx-auto d-block paw" src="/static/Sam/download.png">
+    <hr> 
+    <div class="container" >    
+          <div class="card mb-3" style="max-width: 50rem;">
+            <img class="card-img-top" src="{{ object.image.url }}" alt="Card image cap">
+            <div class="card-body d-flex flex-column text-dark">
+              <h5 class="card-title">{{ object.title }}</h5>
+              <div class="mb-1 text-muted">Gyvunas: {{ object.animal_type }}</div>
+              <p class="card-text line-clamp">{{ object.content }}</p>
+            </div>
+          </div>
+    </div>   
+</div> -->
+
+
+
+
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" />
+<div class="container">
+  <div class="row">
+    <div class="col-md-9">
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+            <img class="banner img-fluid" src="{{ object.image.url }}" alt="First slide">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <h5><strong>Vardas</strong></h5>
+    <p>{{ object.title }}</p>
+    <h5><strong>Gyvūnas</strong></h5>
+    <p>{{ object.animal_type }}</p>
+    <h5><strong>Aprašymas</strong></h5>
+    <p>{{ object.content }}</p>
+  </div>
+  <div class="dropdown-divider"></div>
+</div>
+
+
+
+{% endblock %}
